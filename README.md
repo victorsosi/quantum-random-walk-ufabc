@@ -1,10 +1,9 @@
-# Quantum Random Walk: 
-### Da Nanociência à Música Quântica
-
+# Quantum Random Walk #
+## Da Nanociência à Música Quântica ##
 
 Este projeto foi desenvolvido como um Trabalho Didático para as disciplinas de Introdução à Nanociência e Nanotecnologia e Modelagem Matemática na UFABC. O objetivo é demonstrar como partículas em nanoescala não seguem trajetórias clássicas, mas sim probabilísticas, utilizando a computação quântica como ponte. 
 
-####  Conceitos Explorados
+###  Conceitos Explorados
 
 Superposição Quântica: Utilizada para permitir que o "caminhante" (walker) explore múltiplos caminhos simultaneamente.
 Random Walks Quânticos: Modelagem de distribuições de probabilidade não triviais que geram padrões caóticos e fractais.Sonificação de Dados: Conversão de intensidades de pixels da simulação em notas musicais (MIDI).
