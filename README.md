@@ -182,11 +182,11 @@ Arquivo MIDI
 
 Agora possuímos o arquivo MIDI, podendo ser executado por Players de MIDI, pode ser manipulados em editores, ou ser convertido para outros formatos de áudio.
 
+<img width="598" height="237" alt="arquivomidi" src="https://github.com/user-attachments/assets/bbec84b7-6f86-43e8-82ea-135a520b1397" />
 
+Para este projeto, abrimos o arquivo MIDI no programa Guitar Pro. Este reconheceu as notas MIDI, e definimos como um piano (por exemplo). Assim, temos uma partitura completa, como resultado de todos os processos anteriores.
 
-
-
-
+<img width="598" height="566" alt="img-partitura" src="https://github.com/user-attachments/assets/d009d5a1-39bf-471c-8047-d73893350484" />
 
 
 ## Áudio Final
@@ -195,4 +195,4 @@ Você pode escutar o áudio final no player abaixo:
 
 https://github.com/user-attachments/assets/494e43b7-653e-43e8-bc82-0702a51b610c
 
-
+### Muito Obrigado!
