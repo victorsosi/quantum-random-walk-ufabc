@@ -4,7 +4,9 @@
 
 ### <img src="icon-science-2.gif" widith="30" height="30"> INTRODUÇÃO
 
-Este projeto foi desenvolvido como um Trabalho Didático para as disciplinas de Introdução à Nanociência e Nanotecnologia e Modelagem Matemática na UFABC. O objetivo é demonstrar como partículas em nanoescala não seguem trajetórias clássicas, mas sim probabilísticas, utilizando a computação quântica como ponte. 
+Este projeto foi desenvolvido como um Trabalho Didático para as disciplinas de Introdução à Nanociência e Nanotecnologia e Modelagem Matemática, para o curso de Pós-Graduação em Ciência e Tecnologia na Universidade Federal do ABC - UFABC. 
+
+O objetivo foi demonstrar como partículas em nanoescala não seguem trajetórias clássicas, mas sim probabilísticas, utilizando a computação quântica como ponte para alguns experimentos científicos.
 
 
 ### <img src="icon-science-2.gif" widith="30" height="30"> CONCEITOS A SEREM DESENVOLVIDOS
