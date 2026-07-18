@@ -21,7 +21,7 @@ Explorar como partículas em nanoescala não seguem trajetórias clássicas, mas
 
 ### Proposta de desenvolvimento de um Trabalho Didático:
 
-#### 1. Contextualização
+## 1. Contextualização
 
 Na nanociência, o estudo de partículas em dimensões extremamente pequenas exige modelos que considerem superposição, interferência e descoerência quântica. Essas propriedades são diferentes do mundo clássico e podem ser introduzidas aos alunos através de analogias com passeios aleatórios quânticos (quantum random walks).
 
@@ -31,7 +31,7 @@ Por fim, estes padrões serão convertidos em uma música aleatória e caótica.
 
 
 
-#### 2. Metodologia:
+## 2. Metodologia:
 
 Introduzir conceitos básicos de nanociência (movimento de partículas, transporte em nanoestruturas, exemplo do grafeno) e diferenciar o modelo clássico do quântico.
 
@@ -120,7 +120,78 @@ plt.show()
 
 Visualização: Gerar a matriz de probabilidades e convertê-la em imagem fractalizada. Discussão: Relacionar os padrões visuais com fenômenos como difusão quântica em nanoescala, coerência e caos.
 
+Imagem Resultante:
 
+<img width="348" height="351" alt="imagem-resultante-1" src="https://github.com/user-attachments/assets/790747ac-0164-4fdf-9fa8-82250ee3bd1d" />
+
+## 3. Atividade prática
+
+Alterar parâmetros do código (número de qubits, passos, shots).
+
+Comparar a diferença entre o random walk clássico (simplesmente sorteando direções) e o quântico (usando superposição).
+
+Observar como mudanças na simulação criam imagens distintas, conectando a matemática abstrata com fenômenos reais da nanociência.
+
+Ao alterar o número de qubits, tivemos este 3 diferentes resultados.
+
+<img width="648" height="202" alt="imagem-resultante-2" src="https://github.com/user-attachments/assets/b2349fa4-f4b3-4051-ae66-c39a6eec3e29" />
+
+## 4. Transformando Imagem em som
+
+Agora, o próximo passo foi utilizar a imagem resultante do experimento, a fim de converter seus pontos claros e escuros em sinais sonoros, gerando uma música completamente aleatória. 
+
+
+#### Importando a Imagem (Imagem_Quantum_Random_Walks.png)
+
+```
+from PIL import Image
+import numpy as np
+from mido import Message, MidiFile, MidiTrack
+
+
+# Carregar imagem
+
+
+img = Image.open("Imagem_Quantum_Random_Walks.png").convert("L") 
+data = np.array(img)
+
+
+mid = MidiFile()
+track = MidiTrack()
+mid.tracks.append(track)
+```
+
+Convertendo Pixels em Notas Musicais
+```
+# Mapear pixels para notas (escala 60–84 = C4 a C6)
+for x in range(0, data.shape[1], 10):  # percorre colunas (tempo)
+   col = data[:, x]
+   avg = int(np.mean(col))  # média da intensidade
+   note = 60 + (avg * 24 // 255)  # mapeia para notas
+   track.append(Message('note_on', note=note, velocity=64, time=120))
+   track.append(Message('note_off', note=note, velocity=64, time=240))
+```
+
+## Salvando o arquivo MIDI (áudio)
+```
+mid.save("quantum_music.mid")
+print("Arquivo MIDI gerado: quantum_music.mid")
+```
+
+Arquivo MIDI
+
+Agora possuímos o arquivo MIDI, podendo ser executado por Players de MIDI, pode ser manipulados em editores, ou ser convertido para outros formatos de áudio.
+
+
+
+
+
+
+
+
+## Áudio Final
+
+Você pode escutar o áudio final no player abaixo:
 
 https://github.com/user-attachments/assets/494e43b7-653e-43e8-bc82-0702a51b610c
 
