@@ -48,11 +48,11 @@ from qiskit import QuantumCircuit, transpile
 from qiskit_aer import AerSimulator
 from PIL import Image
 
-
 n_steps = 20          # número de passos do walk
 shots_per_step = 200  # número de execuções por passo
 qubits_per_axis = 2   # 2 → 4 posições por eixo (grid 4x4)
 grid_size = 2**qubits_per_axis
+
 ```
 
 ### Simulando um Quantum Random Walks
@@ -60,7 +60,6 @@ grid_size = 2**qubits_per_axis
 ```
 
 # Matriz acumulada de probabilidades
-
 prob_matrix = np.zeros((grid_size, grid_size))
 
 # Função para simular um passo quântico
@@ -75,13 +74,12 @@ def quantum_random_walk_step(prob_matrix, shots):
    counts = result.get_counts()
 
    # Atualiza a matriz de probabilidades
-
    for bitstring, count in counts.items():
        # Divide os qubits no meio: metade → eixo X, metade → eixo Y
        x_bits = bitstring[:qubits_per_axis]
        y_bits = bitstring[qubits_per_axis:]
 
-       # Converte binário → inteiro
+       # Converte binário para inteiro
        x = int(x_bits, 2)
        y = int(y_bits, 2)
 
@@ -100,18 +98,15 @@ prob_matrix = prob_matrix / np.max(prob_matrix) * 255
 prob_matrix = prob_matrix.astype(np.uint8)
 
 
-# ----------------------------
 # Salvar imagem 
-# ----------------------------
-
 
 img = Image.fromarray(prob_matrix)
-img = img.resize((1080, 1080), Image.BICUBIC)  # interpolação fractal-like
+img = img.resize((1080, 1080), Image.BICUBIC)  # interpolação
 img.save("quantum_random_walks.png")
 ```
 Visualizando a imagem criada
 ```
-plt.imshow(prob_matrix, cmap="inferno")  # pode trocar cmap para 'plasma', 'magma', etc.
+plt.imshow(prob_matrix, cmap="inferno")  # em cmap poderia ser 'plasma'ou 'magma' também
 plt.title("Quantum Random Walk")
 plt.axis("off")
 plt.show()
@@ -147,13 +142,10 @@ from PIL import Image
 import numpy as np
 from mido import Message, MidiFile, MidiTrack
 
-
 # Carregar imagem
-
 
 img = Image.open("Imagem_Quantum_Random_Walks.png").convert("L") 
 data = np.array(img)
-
 
 mid = MidiFile()
 track = MidiTrack()
