@@ -1,4 +1,5 @@
-### Quantum Random Walk: Da Nanociência à Música Quântica
+# Quantum Random Walk: 
+### Da Nanociência à Música Quântica
 
 
 Este projeto foi desenvolvido como um Trabalho Didático para as disciplinas de Introdução à Nanociência e Nanotecnologia e Modelagem Matemática na UFABC. O objetivo é demonstrar como partículas em nanoescala não seguem trajetórias clássicas, mas sim probabilísticas, utilizando a computação quântica como ponte. 
