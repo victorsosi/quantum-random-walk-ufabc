@@ -121,3 +121,7 @@ plt.show()
 Visualização: Gerar a matriz de probabilidades e convertê-la em imagem fractalizada. Discussão: Relacionar os padrões visuais com fenômenos como difusão quântica em nanoescala, coerência e caos.
 
 
+
+https://github.com/user-attachments/assets/494e43b7-653e-43e8-bc82-0702a51b610c
+
+
