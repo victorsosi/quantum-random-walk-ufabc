@@ -2,26 +2,25 @@
 
 ### <img src="flask.gif" alt="Icone de física" width="50" height="50">  QUANTUM RANDOM WALLK - Da Nanociência à Música Quântica
 
-### INTRODUÇÃO
+### <img src="icon-science-2.gif" widith="30" height="30"> INTRODUÇÃO
 
 Este projeto foi desenvolvido como um Trabalho Didático para as disciplinas de Introdução à Nanociência e Nanotecnologia e Modelagem Matemática na UFABC. O objetivo é demonstrar como partículas em nanoescala não seguem trajetórias clássicas, mas sim probabilísticas, utilizando a computação quântica como ponte. 
 
 
-### Conceitos a serem desenvolvidos:
+### <img src="icon-science-2.gif" widith="30" height="30"> CONCEITOS A SEREM DESENVOLVIDOS
 
-Caminhadas quânticas: uma ponte entre a nanociência, modelagem matemática e música.
+#### Caminhadas quânticas: 
+uma ponte entre a nanociência, modelagem matemática e música.
 
 #### Público-alvo: 
-
 Estudantes do ensino médio com interesse em ciência, computação, matemática e música.
 
-#### Fio condutor: 
-
+#### Fio condutor:
 Explorar como partículas em nanoescala não seguem trajetórias clássicas, mas sim probabilísticas, e como isso pode ser modelado matematicamente por meio de random walks quânticos. O resultado é visualizado em padrões caóticos, aproximando o estudante de fenômenos reais da nanociência através de um recurso computacional acessível.
 
-### Proposta de desenvolvimento de um Trabalho Didático:
+### <img src="icon-science-2.gif" widith="30" height="30">  PROPOSTA DE DESENVOLVIMENTO
 
-## 1. Contextualização
+#### 1. Contextualização
 
 Na nanociência, o estudo de partículas em dimensões extremamente pequenas exige modelos que considerem superposição, interferência e descoerência quântica. Essas propriedades são diferentes do mundo clássico e podem ser introduzidas aos alunos através de analogias com passeios aleatórios quânticos (quantum random walks).
 
@@ -31,7 +30,7 @@ Por fim, estes padrões serão convertidos em uma música aleatória e caótica.
 
 
 
-## 2. Metodologia:
+#### 2. Metodologia:
 
 Introduzir conceitos básicos de nanociência (movimento de partículas, transporte em nanoestruturas, exemplo do grafeno) e diferenciar o modelo clássico do quântico.
 
@@ -124,7 +123,7 @@ Imagem Resultante:
 
 <img width="348" height="351" alt="imagem-resultante-1" src="https://github.com/user-attachments/assets/790747ac-0164-4fdf-9fa8-82250ee3bd1d" />
 
-## 3. Atividade prática
+#### 3. Atividade prática
 
 Alterar parâmetros do código (número de qubits, passos, shots).
 
@@ -136,7 +135,7 @@ Ao alterar o número de qubits, tivemos este 3 diferentes resultados.
 
 <img width="648" height="202" alt="imagem-resultante-2" src="https://github.com/user-attachments/assets/b2349fa4-f4b3-4051-ae66-c39a6eec3e29" />
 
-## 4. Transformando Imagem em som
+#### 4. Transformando Imagem em som
 
 Agora, o próximo passo foi utilizar a imagem resultante do experimento, a fim de converter seus pontos claros e escuros em sinais sonoros, gerando uma música completamente aleatória. 
 
@@ -161,7 +160,7 @@ track = MidiTrack()
 mid.tracks.append(track)
 ```
 
-Convertendo Pixels em Notas Musicais
+#### Convertendo Pixels em Notas Musicais
 ```
 # Mapear pixels para notas (escala 60–84 = C4 a C6)
 for x in range(0, data.shape[1], 10):  # percorre colunas (tempo)
@@ -172,13 +171,13 @@ for x in range(0, data.shape[1], 10):  # percorre colunas (tempo)
    track.append(Message('note_off', note=note, velocity=64, time=240))
 ```
 
-## Salvando o arquivo MIDI (áudio)
+#### Salvando o arquivo MIDI (áudio)
 ```
 mid.save("quantum_music.mid")
 print("Arquivo MIDI gerado: quantum_music.mid")
 ```
 
-Arquivo MIDI
+### <img src="icon-science-2.gif" widith="30" height="30">  ARQUIVO MIDI
 
 Agora possuímos o arquivo MIDI, podendo ser executado por Players de MIDI, pode ser manipulados em editores, ou ser convertido para outros formatos de áudio.
 
@@ -189,7 +188,7 @@ Para este projeto, abrimos o arquivo MIDI no programa Guitar Pro. Este reconhece
 <img width="598" height="566" alt="img-partitura" src="https://github.com/user-attachments/assets/d009d5a1-39bf-471c-8047-d73893350484" />
 
 
-## Áudio Final
+### <img src="icon-science-2.gif" widith="30" height="30">  ÁUDIO FINAL
 
 Você pode escutar o áudio final no player abaixo:
 
