@@ -1,8 +1,8 @@
 <img src="title.PNG">
 
-### QUANTUM RANDOM WALLK - Da Nanociência à Música Quântica
+### <img src="flask.gif" alt="Icone de física" width="50" height="50">  QUANTUM RANDOM WALLK - Da Nanociência à Música Quântica
 
-#### <img src="physics.gif" alt="Icone de física" width="50" height="50"> INTRODUÇÃO
+#### INTRODUÇÃO
 
 
 
