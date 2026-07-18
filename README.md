@@ -2,7 +2,10 @@
 
 ### QUANTUM RANDOM WALLK - Da Nanociência à Música Quântica
 
-#### INTRODUÇÃO
+#### <img src="physics.gif" alt="Icone de física" width="50" height="50"> INTRODUÇÃO
+
+
+
 
 Este projeto foi desenvolvido como um Trabalho Didático para as disciplinas de Introdução à Nanociência e Nanotecnologia e Modelagem Matemática na UFABC. O objetivo é demonstrar como partículas em nanoescala não seguem trajetórias clássicas, mas sim probabilísticas, utilizando a computação quântica como ponte. 
 
