@@ -188,4 +188,4 @@ Você pode escutar o áudio final no player abaixo:
 
 https://github.com/user-attachments/assets/494e43b7-653e-43e8-bc82-0702a51b610c
 
-### Muito Obrigado!
+### <img src="icon-science-2.gif" widith="30" height="30">  Muito Obrigado!
