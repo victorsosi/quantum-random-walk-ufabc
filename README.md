@@ -1,13 +1,14 @@
 <img src="title.PNG">
 
-### <img src="flask.gif" alt="Icone de física" width="50" height="50">  QUANTUM RANDOM WALLK - Experimentos da Nanociência à Música Quântica.
+### <img src="flask.gif" alt="Icone de física" width="50" height="50">  QUANTUM RANDOM WALLK - From nanoscience to quantum music.
 
-### <img src="icon-science-2.gif" widith="30" height="30"> INTRODUÇÃO
+### <img src="icon-science-2.gif" widith="30" height="30"> INTRODUCTION
 
-Opa! Este projeto foi desenvolvido a partir de um Trabalho Didático para as disciplinas de Introdução à Nanociência e Nanotecnologia, e Modelagem Matemática, do curso de Pós-Graduação em Ciência e Tecnologia da Universidade Federal do ABC - UFABC.
+Hi! This project is created from two disciplines, (Nanoscience and Nanotechnology Introduction, and Mathematical Modelong), from the course od Postgraduation in Science and Technology by UFABC - Universade Federal do ABC, Santo André, SP, Brazil.
 
-O objetivo do projeoto, foi demonstrar como partículas em nanoescala não seguem trajetórias clássicas, mas sim probabilísticas, utilizando a computação quântica como ponte para alguns experimentos científicos.
+--
 
+The project's objective is to demosntrates how nanoscale particles don't follow the rules of flassical physics, but probabilistic, using concepts about Quantum Computing, as a bridge to scientific experiments.
 
 ### <img src="icon-science-2.gif" widith="30" height="30"> CONCEITOS A SEREM DESENVOLVIDOS
 
