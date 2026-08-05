@@ -6,7 +6,7 @@
 
 Hi! This project is created from two disciplines, (Nanoscience and Nanotechnology Introduction, and Mathematical Modelong), from the course od Postgraduation in Science and Technology by UFABC - Universade Federal do ABC, Santo André, SP, Brazil.
 
-\\\\\\\
+\\\\\\\/////
 
 The project's objective is to demosntrates how nanoscale particles don't follow the rules of flassical physics, but probabilistic, using concepts about Quantum Computing, as a bridge to scientific experiments.
 
